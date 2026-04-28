@@ -33,6 +33,24 @@ function ProductList() {
                     image: "https://cdn.pixabay.com/photo/2019/06/12/14/14/peace-lilies-4269365_1280.jpg",
                     description: "Removes mold spores and purifies the air.",
                     cost: "$18"
+                },
+                {
+                    name: "Boston Fern",
+                    image: "https://cdn.pixabay.com/photo/2020/04/30/19/52/boston-fern-5114414_1280.jpg",
+                    description: "Adds humidity to the room and purifies the air.",
+                    cost: "$20"
+                },
+                {
+                    name: "Rubber Plant",
+                    image: "https://cdn.pixabay.com/photo/2020/02/15/11/49/flower-4850729_1280.jpg",
+                    description: "Easy to care for and absorbs indoor pollutants.",
+                    cost: "$17"
+                },
+                {
+                    name: "Aloe Vera",
+                    image: "https://cdn.pixabay.com/photo/2018/04/02/07/42/leaf-3283175_1280.jpg",
+                    description: "Purifies the air and has healing properties for skin.",
+                    cost: "$14"
                 }
             ]
         },
@@ -56,29 +74,65 @@ function ProductList() {
                     image: "https://cdn.pixabay.com/photo/2019/11/29/19/46/rosemary-4663174_1280.jpg",
                     description: "Invigorating scent, often used in cooking.",
                     cost: "$15"
+                },
+                {
+                    name: "Mint",
+                    image: "https://cdn.pixabay.com/photo/2016/01/02/02/03/mint-1117565_1280.jpg",
+                    description: "Refreshing aroma, used in teas and cooking.",
+                    cost: "$12"
+                },
+                {
+                    name: "Lemon Balm",
+                    image: "https://cdn.pixabay.com/photo/2019/09/16/07/41/balm-4480134_1280.jpg",
+                    description: "Citrusy scent, relieves stress and promotes sleep.",
+                    cost: "$14"
+                },
+                {
+                    name: "Hyacinth",
+                    image: "https://cdn.pixabay.com/photo/2019/04/07/20/20/hyacinth-4110726_1280.jpg",
+                    description: "Hyacinth is a beautiful plant known for its fragrant.",
+                    cost: "$22"
                 }
             ]
         },
         {
-            category: "Low Maintenance Plants",
+            category: "Insect Repellent Plants",
             plants: [
                 {
-                    name: "Aloe Vera",
-                    image: "https://cdn.pixabay.com/photo/2018/04/02/07/42/leaf-3283175_1280.jpg",
-                    description: "Soothing sap, great for skin conditions.",
-                    cost: "$14"
-                },
-                {
-                    name: "ZZ Plant",
-                    image: "https://images.unsplash.com/photo-1632207691143-643e2a9a9361?q=80&w=1964&auto=format&fit=crop",
-                    description: "Thrives in low light and requires minimal watering.",
-                    cost: "$25"
-                },
-                {
-                    name: "Pothos",
-                    image: "https://cdn.pixabay.com/photo/2018/11/15/10/32/plants-3816945_1280.jpg",
-                    description: "Tolerates neglect and can grow in various conditions.",
+                    name: "oregano",
+                    image: "https://cdn.pixabay.com/photo/2015/05/30/21/20/oregano-790702_1280.jpg",
+                    description: "The oregano plants contains compounds that can deter certain insects.",
                     cost: "$10"
+                },
+                {
+                    name: "Marigold",
+                    image: "https://cdn.pixabay.com/photo/2022/02/22/05/45/marigold-7028063_1280.jpg",
+                    description: "Natural insect repellent, also adds color to the garden.",
+                    cost: "$8"
+                },
+                {
+                    name: "Geraniums",
+                    image: "https://cdn.pixabay.com/photo/2012/04/26/21/51/flowerpot-43270_1280.jpg",
+                    description: "Known for their insect-repelling properties while adding a pleasant scent.",
+                    cost: "$20"
+                },
+                {
+                    name: "Basil",
+                    image: "https://cdn.pixabay.com/photo/2016/07/24/20/48/garlic-1539434_1280.jpg",
+                    description: "Repels flies and mosquitoes, also used in cooking.",
+                    cost: "$9"
+                },
+                {
+                    name: "Citronella",
+                    image: "https://images.unsplash.com/photo-1596541603957-c0f2095ccfe8?q=80&w=2675&auto=format&fit=crop",
+                    description: "Famous for repelling mosquitoes.",
+                    cost: "$12"
+                },
+                {
+                    name: "Lemongrass",
+                    image: "https://images.unsplash.com/photo-1524177241031-15b63bc5f8b9?q=80&w=2574&auto=format&fit=crop",
+                    description: "Used to repel mosquitos naturally.",
+                    cost: "$11"
                 }
             ]
         }

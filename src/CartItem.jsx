@@ -18,6 +18,14 @@ const CartItem = ({ onContinueShopping }) => {
         return total;
     };
 
+    const calculateTotalItems = () => {
+        let totalItems = 0;
+        cart.forEach((item) => {
+            totalItems += item.quantity;
+        });
+        return totalItems;
+    };
+
     const handleContinueShopping = (e) => {
         e.preventDefault();
         if (onContinueShopping) {
@@ -26,7 +34,7 @@ const CartItem = ({ onContinueShopping }) => {
     };
 
     const handleCheckoutShopping = (e) => {
-        alert('Functionality to be added for future reference');
+        alert('Coming Soon');
     };
 
     const handleIncrement = (item) => {
@@ -54,6 +62,7 @@ const CartItem = ({ onContinueShopping }) => {
     return (
         <div className="cart-container">
             <h2 style={{ color: 'black' }}>Total Cart Amount: ${calculateTotalAmount().toFixed(2)}</h2>
+            <h3 style={{ color: 'black' }}>Total Number of Plants: {calculateTotalItems()}</h3>
             <div>
                 {cart.map(item => (
                     <div className="cart-item" key={item.name}>
