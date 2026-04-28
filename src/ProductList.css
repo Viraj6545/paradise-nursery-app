@@ -1,0 +1,131 @@
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+}
+
+.luxury {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.luxury img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 5px;
+}
+
+.luxury h3 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.luxury i {
+    font-size: 0.9rem;
+}
+
+.cart_quantity_count {
+    position: absolute;
+    top: 5px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-size: 14px;
+    padding: 2px 8px;
+    font-weight: bold;
+}
+
+.product-grid {
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+.category-section {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.category-section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #4caf50;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.product-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.product-price {
+    font-size: 1.3rem;
+    color: #4caf50;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+
+.product-button {
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product-button:disabled {
+    cursor: not-allowed;
+}
+
+.product-button:hover:not(:disabled) {
+    background-color: #45a049 !important;
+}
